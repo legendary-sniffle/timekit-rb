@@ -1,6 +1,6 @@
 require "test_helper"
 
-class TimekitRbTest < Minitest::Test
+class TimekitTest < Minitest::Test
   def test_that_it_has_a_version_number
     refute_nil ::TimekitRb::VERSION
   end
