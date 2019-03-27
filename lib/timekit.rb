@@ -3,7 +3,7 @@ require_relative "./timekit/version"
 require_relative "./timekit/errors"
 
 # Base requirements
-require 'curb'
+require "curb"
 require_relative "./timekit/http"
 
 # Library code
