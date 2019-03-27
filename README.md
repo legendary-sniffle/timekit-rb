@@ -1,4 +1,4 @@
-# Timekit ![](https://travis-ci.com/legendary-sniffle/timekit_rb.svg?branch=master)
+# Timekit [![](https://travis-ci.com/legendary-sniffle/timekit_rb.svg?branch=master)](https://travis-ci.com/legendary-sniffle/timekit_rb)
 
 Ruby wrapper for the [Timekit API](https://developers.timekit.io)!
 
