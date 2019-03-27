@@ -1,0 +1,25 @@
+PATH
+  remote: .
+  specs:
+    timekit_rb (0.1.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.11.3)
+    minitest-focus (1.1.2)
+      minitest (>= 4, < 6)
+    rake (10.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  minitest (~> 5.0)
+  minitest-focus (~> 1.1.2)
+  rake (~> 10.0)
+  timekit_rb!
+
+BUNDLED WITH
+   1.16.2
