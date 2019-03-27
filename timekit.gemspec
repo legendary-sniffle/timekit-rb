@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "timekit_rb/version"
+require "timekit/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "timekit_rb"
-  spec.version       = TimekitRb::VERSION
+  spec.name          = "timekit"
+  spec.version       = Timekit::VERSION
   spec.authors       = ["Jonah Moses"]
   spec.email         = ["jonahkmoses@gmail.com"]
 
