@@ -1,6 +1,6 @@
 require_relative "./timekit/configuration"
 require_relative "./timekit/version"
-require_relative "./timekit/errors"
+require_relative "./timekit/errors/errors"
 
 # Base requirements
 require "curb"
