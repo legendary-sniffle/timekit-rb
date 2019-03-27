@@ -6,8 +6,8 @@ require "timekit/version"
 Gem::Specification.new do |spec|
   spec.name          = "timekit_rb"
   spec.version       = Timekit::VERSION
-  spec.authors       = ["Jonah Moses"]
-  spec.email         = ["jonahkmoses@gmail.com"]
+  spec.authors       = ["Jonah Moses", "Liz Abinante"]
+  spec.email         = ["jonahkmoses@gmail.com", "me@liz.codes"]
 
   spec.summary       = "Timekit Ruby Gem"
   spec.description   = "Timekit Ruby Gem"
@@ -31,8 +31,11 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
+  spec.add_dependency "curb", "~> 0.9"
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "minitest", "~> 5.0"
   spec.add_development_dependency "minitest-focus", "~> 1.1.2"
+  spec.add_development_dependency "vcr", "~> 4.0"
+  spec.add_development_dependency "webmock", "~> 3.5"
 end
