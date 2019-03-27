@@ -6,6 +6,9 @@ require_relative "./timekit/errors"
 require 'curb'
 require_relative "./timekit/http"
 
+# Library code
+require_relative "./timekit/resource"
+
 module Timekit
   class << self
     attr_accessor :configuration
