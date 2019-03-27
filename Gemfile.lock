@@ -12,6 +12,7 @@ GEM
     minitest-focus (1.1.2)
       minitest (>= 4, < 6)
     rake (10.5.0)
+    vcr (4.0.0)
 
 PLATFORMS
   ruby
@@ -22,6 +23,7 @@ DEPENDENCIES
   minitest-focus (~> 1.1.2)
   rake (~> 10.0)
   timekit_rb!
+  vcr (~> 4.0)
 
 BUNDLED WITH
    1.16.2
