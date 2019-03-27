@@ -1,5 +1,7 @@
 require_relative "./timekit/configuration"
 require_relative "./timekit/version"
+require_relative "./timekit/errors"
+
 
 module Timekit
   class << self
